@@ -1,0 +1,9 @@
+framework\PropertyReader.class
+herokuapp\Dropdown.class
+framework\BaseTest.class
+herokuapp\AddAndRemoveElements.class
+herokuapp\NotificationMessages.class
+herokuapp\Inputs.class
+herokuapp\Checkboxes.class
+framework\DriverFactory.class
+herokuapp\Hovers.class

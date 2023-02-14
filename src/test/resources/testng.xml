@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="HerokuApp" parallel="tests" thread-count="1">
+    <test name="test">
+        <classes>
+            <class name="herokuapp.AddAndRemoveElements"></class>
+            <class name="herokuapp.Checkboxes"></class>
+            <class name="herokuapp.Dropdown"></class>
+            <class name="herokuapp.Inputs"></class>
+            <class name="herokuapp.Hovers"></class>
+            <class name="herokuapp.NotificationMessages"></class>
+        </classes>
+    </test>
+</suite>

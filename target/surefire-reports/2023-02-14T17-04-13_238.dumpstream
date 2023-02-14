@@ -1,0 +1,4 @@
+# Created at 2023-02-14T17:04:13.380
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Zalivako\JAVA courses\stormnet-automation-testing-HW-herokuapp\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.455 s <<< FAILURE! - in TestSuite
+hoversTest(herokuapp.Hovers)  Time elapsed: 1.1 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: rect is undefined
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [835d3c03-e9cc-4fbf-98fb-1126bdc652a6, actions {actions=[org.openqa.selenium.interactions.Sequence@5da1ff67]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.5.0, moz:accessibilityChecks: false, moz:buildID: 20221107191025, moz:debuggerAddress: localhost:39994, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14624, moz:profile: C:\TEMP\B00044~1\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:39994/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 835d3c03-e9cc-4fbf-98fb-1126bdc652a6
+	at herokuapp.Hovers.hoversTest(Hovers.java:32)
+
